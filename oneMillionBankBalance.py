@@ -8,7 +8,7 @@ TARGET = 10 ** 6
 MAX = 3000
 failures = 0
 
-for i in range(1, 101):
+for i in range(1, MAX + 1):
 	for j in range(1, MAX + 1):
 		lastBalance = i
 		balance = j
