@@ -1,6 +1,6 @@
 '''
-My attempt to solve The 1 Million Bank Balance Puzzle by Matt Parker.
-https://redd.it/gj10bv
+My solution to the 1 Million Bank Balance Puzzle by Matt Parker.
+https://www.think-maths.co.uk/BankBalance
 https://www.youtube.com/watch?v=ILrqPpLpwpE
 '''
 

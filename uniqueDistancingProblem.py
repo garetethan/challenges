@@ -1,5 +1,6 @@
 '''
 My attempt to solve the Unique Distancing Problem by Matt Parker.
+http://www.think-maths.co.uk/uniquedistance
 https://www.youtube.com/watch?v=M_YOCQaI5QI
 
 I do not attempt to eliminate reflections or rotations from the list of solutions.
@@ -14,16 +15,11 @@ ROUNDS = 10 ** 6
 def main():
 	solutions = set()
 	for _ in range(ROUNDS):
-		tokenPositions = set()
 		# Place tokens randomly.
-		for _ in range(N):
-			row = randrange(N)
-			column = randrange(N)
-			while (row, column) in tokenPositions:
-				row = randrange(N)
-				column = randrange(N)
-			tokenPositions.add((row, column))
-		
+		tokenPositions = set()
+		while len(tokenPositions) < N:
+			tokenPositions.add((randrange(N), randrange(N)))
+
 		# Find the distances between all of the tokens.
 		distances = set()
 		try:

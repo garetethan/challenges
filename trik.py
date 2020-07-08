@@ -1,4 +1,7 @@
-# https://open.kattis.com/problems/trik
+'''
+My solution to Trik.
+https://open.kattis.com/problems/trik
+'''
 
 def main():
 	moves = input()
@@ -20,7 +23,6 @@ def main():
 				position = 3
 			elif position == 3:
 				position = 1
-
 	print(position)
 
 if __name__ == '__main__':

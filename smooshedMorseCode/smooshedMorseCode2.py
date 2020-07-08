@@ -1,5 +1,9 @@
-# https://redd.it/cn6gz5
-# No bonuses attempted.
+'''
+My attempt to solve Smooshed Morse Code 2 inspired by u/Separate_Memory and posted by u/Cosmologicon. 
+https://redd.it/cn6gz5
+
+No bonuses attempted.
+'''
 
 from morseCodeMapping import MORSE
 from trees import Node

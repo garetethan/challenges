@@ -1,4 +1,7 @@
-# https://open.kattis.com/problems/beekeeper
+'''
+My solution to Beekeeper by Nicholas Sharp.
+https://open.kattis.com/problems/beekeeper
+'''
 
 import re
 

@@ -1,7 +1,7 @@
 '''
-Triangle Peg Solitaire
-Not specifically a programming challenge, but I chose to use a program to try to find solutions.
-https://redd.it/gawouk
+My solution to Triangle Peg Solitaire by Matt Parker.
+https://www.think-maths.co.uk/coin-puzzle
+https://www.youtube.com/watch?v=TEkJMFTyZwM
 '''
 
 import random
